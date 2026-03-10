@@ -12,7 +12,7 @@ import javax.xml.crypto.Data;
  * @author aluno
  */
 public class Estudante {
-    private String nome;
+    private static String nome;
     private Data dataNacimento;
     private String cpf;
     private char genero;
@@ -29,11 +29,11 @@ public class Estudante {
         return idade;
     }
     
-    public String getNome(){
+    public static String getNome(){
         return nome;
     }
     
-    public void setNome(String _nome){
+    public static void setNome(String _nome){
         nome = _nome;
     }
     
