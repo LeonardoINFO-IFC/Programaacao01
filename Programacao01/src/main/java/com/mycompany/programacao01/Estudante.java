@@ -29,7 +29,7 @@ public class Estudante {
         return idade;
     }
     
-    String getNome(){
+    public String getNome(){
         return nome;
     }
     
