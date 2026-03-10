@@ -23,13 +23,13 @@ public class Estudante {
         nome = "Nobody";
     }
     
-    private int obterIdade(Data hoje){
+    public int obterIdade(Data hoje){
         int idade = 0;
         //Logica de calculo de idade
         return idade;
     }
     
-    public String getNome(){
+    String getNome(){
         return nome;
     }
     
