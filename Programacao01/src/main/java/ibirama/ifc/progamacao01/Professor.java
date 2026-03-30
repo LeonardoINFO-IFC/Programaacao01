@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.programacao01;
+package ibirama.ifc.progamacao01;
 
 import javax.xml.crypto.Data;
 
@@ -12,7 +12,7 @@ import javax.xml.crypto.Data;
  */
 public class Professor {
 
-    private static String nome;
+    private String nome;
     private String siape;
     private Data dataNacimento;
     private String email;
@@ -27,11 +27,11 @@ public class Professor {
         nome = "Nobody";
     }
     
-    public static String getNome() {
+    public String getNome() {
         return nome;
     }
 
-    public static void setNome(String _nome) {
+    public void setNome(String _nome) {
         nome = _nome;
     }
     
