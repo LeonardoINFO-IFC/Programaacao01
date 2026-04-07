@@ -4,6 +4,9 @@
  */
 package com.ibirama.ifc.sistemaacademico;
 
+import ibirama.ifc.progamacao01.Disciplina;
+import java.util.ArrayList;
+import java.util.List;
 import javax.xml.crypto.Data;
 
 /**
@@ -18,6 +21,7 @@ public abstract class Curso {
     private int tipoDuracao;
     private String modalidade;
     private boolean status; 
+    private List<Disciplina> disciplina = new ArrayList<Disciplina>();
     
     public Curso(){
         nome = "nobody";    
